@@ -1,9 +1,7 @@
 const API = "http://localhost:8000/todos";
-
 let inpAdd = document.getElementById("inp-add");
 let btnAdd = document.getElementById("btn-add");
 console.log(inpAdd, btnAdd);
-
 btnAdd.addEventListener("click", async function () {
   let newTodo = {
     todo: inpAdd.value,
